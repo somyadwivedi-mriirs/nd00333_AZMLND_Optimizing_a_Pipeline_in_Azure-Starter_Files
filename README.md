@@ -32,7 +32,12 @@ Some areas of improvement for future experiments can be:
 
 **Hyperdrive Run**
 
+<img src="Screenshots/HyperDrive_run.PNG" alt="HyperDrive Run">
+
 **AutoML Run**
+
+<img src="Screenshots/autoML_run.PNG" alt="AutoML Run">
 
 **Best accuracy**
 
+<img src="Screenshots/best_accuracy.PNG" alt="Best Accuracy">

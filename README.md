@@ -22,6 +22,7 @@ Here, BanditPolicy was used as the early stopping policy which takes into accoun
 
 ## AutoML
 Using the AutoML, VotingEnsemble model performed the best with the accuracy of 91.75%. The AutoMLConfig was used to set the parameters like experiment_timeout_minutes=30, task="classification", primary_metric="accuracy", label_column_name="y", n_cross_validations=5 and training_data as concatenation of x and y received from clean_data function.
+
 The hyperparameters recommended by the AutoML for VotingEnsemble model are min_samples_leaf = 0.01, min_samples_split=0.01, min_weight_fraction_leaf=0.0, n_estimators=10 and n_jobs=1.
 
 ## Pipeline comparison
